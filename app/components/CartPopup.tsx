@@ -28,7 +28,7 @@ export default function CartPopup({ onClose }: CartPopupProps) {
       )
       .join("\n");
 
-    const whatsappMsg = `Hello, I want to buy:\n${message}\n\nTotal: $${total}`;
+    const whatsappMsg = `Hello, Waxaan Rabaa inan iibsado adeegan:\n${message}\n\nTotal: $${total}`;
     const encoded = encodeURIComponent(whatsappMsg);
 
     window.open(`https://wa.me/252617733690?text=${encoded}`, "_blank");
