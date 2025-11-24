@@ -25,7 +25,7 @@ export async function GET() {
 },
 {
   "id": 4,
-  "name": "yaanyo miro",
+  "name": "yaanyo simirsan",
   "description": "1 kiilo",
   "price": 2,
   "image": "/images/yaanyomiro.png"
