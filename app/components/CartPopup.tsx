@@ -31,7 +31,20 @@ export default function CartPopup({ onClose }: CartPopupProps) {
     const whatsappMsg = `Hello, Waxaan Rabaa inan iibsado adeegan:\n${message}\n\nTotal: $${total}`;
     const encoded = encodeURIComponent(whatsappMsg);
 
-    window.open(`https://wa.me/252617733690?text=${encoded}`, "_blank");
+    const iosLink = `whatsapp://send?phone=252617733690&text=${encoded}`;
+    const webLink = `https://wa.me/252617733690?text=${encoded}`;
+
+    // iPhone fix (Safari blocks window.open)
+    if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+      window.location.href = iosLink;
+
+      // fallback if WhatsApp app is not installed
+      setTimeout(() => {
+        window.location.href = webLink;
+      }, 700);
+    } else {
+      window.open(webLink, "_blank");
+    }
   };
 
   return (
