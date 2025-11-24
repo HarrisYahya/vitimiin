@@ -126,7 +126,7 @@ export async function GET() {
   "name": "Batiiq",
   "description": "1 kii xabo",
   "price": 1,
-  "image": "/images/batii.png"
+  "image": "/images/batiiq.png"
 },
 {
   "id": 19,
