@@ -39,7 +39,7 @@ export default function ProductCard({
 
       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mt-4 gap-3">
         <p className="text-green-600 font-bold">
-          ${price} <span className="text-sm">per kg</span>
+          ${price} <span className="text-sm"></span>
         </p>
 
         <button
