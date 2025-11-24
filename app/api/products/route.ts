@@ -27,7 +27,7 @@ export async function GET() {
   "id": 4,
   "name": "yaanyo simirsan",
   "description": "1 kiilo",
-  "price": 2,
+  "price": 1,
   "image": "/images/yaanyomiro.png"
 },
 {
