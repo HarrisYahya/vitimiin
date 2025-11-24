@@ -23,24 +23,25 @@ export default function ProductCard({
   };
 
   return (
-    <div className="bg-white p-5 rounded-xl shadow-sm hover:shadow-lg transition">
-      <div className="w-full h-40 sm:h-48 bg-gray-100 rounded-lg flex items-center justify-center">
+    <div className="bg-white p-5 rounded-xl shadow-sm hover:shadow-lg transition flex flex-col justify-between h-full">
+      
+      {/* Image Box - fixed size */}
+      <div className="relative w-full h-48 bg-gray-100 rounded-lg overflow-hidden">
         <Image
           src={image}
           alt={name}
-          width={200}
-          height={200}
-          className="object-contain"
+          fill
+          className="object-cover"
         />
       </div>
 
-      <h3 className="font-semibold mt-4 text-center sm:text-left">{name}</h3>
-      <p className="text-gray-500 text-sm mt-1">{description}</p>
+      <div className="flex-1 mt-4">
+        <h3 className="font-semibold text-center sm:text-left">{name}</h3>
+        <p className="text-gray-500 text-sm mt-1 line-clamp-2">{description}</p>
+      </div>
 
-      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mt-4 gap-3">
-        <p className="text-green-600 font-bold">
-          ${price} <span className="text-sm"></span>
-        </p>
+      <div className="flex justify-between items-center mt-4">
+        <p className="text-green-600 font-bold">${price}</p>
 
         <button
           onClick={handleAdd}
@@ -49,6 +50,7 @@ export default function ProductCard({
           Add to Cart
         </button>
       </div>
+
     </div>
   );
 }
