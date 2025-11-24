@@ -35,7 +35,7 @@ export async function GET() {
   "name": "Babaay",
   "description": "1kii xabo",
   "price": 1,
-  "image": "/images/mango.png"
+  "image": "/images/babaay.png"
 },
 {
   "id": 6,
@@ -77,21 +77,21 @@ export async function GET() {
   "name": "Bocor Xabo",
   "description": "",
   "price": 1.5,
-  "image": "/images/boxor.png"
+  "image": "/images/bocor.png"
 },
 {
   "id": 12,
-  "name": "Bisbaas Tumi",
+  "name": "Basbaas Tumi",
   "description": "N",
   "price": 0.5,
-  "image": "/images/bisbaastumi.png"
+  "image": "/images/basbaas.png"
 },
 {
   "id": 13,
   "name": "Baamiyo",
   "description": "1 kiilo",
   "price": 2,
-  "image": "/images/bamiyo.png"
+  "image": "/images/baamiyo.png"
 },
 {
   "id": 14,
@@ -112,7 +112,7 @@ export async function GET() {
   "name": "Beytu raaf",
   "description": "1 kiilo",
   "price": 2,
-  "image": "/images/bayturaaf.png"
+  "image": "/images/biitoraaf.png"
 },
 {
   "id": 17,
@@ -126,7 +126,7 @@ export async function GET() {
   "name": "Batiiq",
   "description": "1 kii xabo",
   "price": 1,
-  "image": "/images/batiiq.png"
+  "image": "/images/batii.png"
 },
 {
   "id": 19,
