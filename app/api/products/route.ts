@@ -256,7 +256,7 @@ export async function GET() {
 },
 
 {
-  "id": 36,
+  "id": 37,
   "name": "Kabsar",
   "description": "1kii xirmo",
   "price": 0.5,
