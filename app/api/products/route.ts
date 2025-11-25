@@ -134,7 +134,127 @@ export async function GET() {
   "description": "3 xabo",
   "price": 1,
   "image": "/images/canbo.png"
+},
+{
+  "id": 35,
+  "name": "liinmacaan",
+  "description": "",
+  "price": 0,
+  "image": "/images/liinmacaan.png"
+},
+{
+  "id": 20,
+  "name": "maceeye",
+  "description": "",
+  "price": 0,
+  "image": "/images/maceeye.png"
+},
+{
+  "id": 21,
+  "name": "mytom",
+  "description": "",
+  "price": 0,
+  "image": "/images/mytom.jpg"
+},
+{
+  "id": 22,
+  "name": "mytomatok",
+  "description": "",
+  "price": 0,
+  "image": "/images/mytomatok.png"
+},
+{
+  "id": 23,
+  "name": "paprika",
+  "description": "",
+  "price": 0,
+  "image": "/images/paprika.png"
+},
+{
+  "id": 24,
+  "name": "premoo",
+  "description": "",
+  "price": 0,
+  "image": "/images/premoo.jpg"
+},
+{
+  "id": 25,
+  "name": "primo",
+  "description": "",
+  "price": 0,
+  "image": "/images/primo.png"
+},
+{
+  "id": 26,
+  "name": "qaro",
+  "description": "",
+  "price": 0,
+  "image": "/images/qaro.png"
+},
+{
+  "id": 27,
+  "name": "shino",
+  "description": "",
+  "price": 0,
+  "image": "/images/shino.png"
+},
+{
+  "id": 28,
+  "name": "smartketchup",
+  "description": "",
+  "price": 0,
+  "image": "/images/smartketchup.png"
+},
+{
+  "id": 29,
+  "name": "soya",
+  "description": "",
+  "price": 0,
+  "image": "/images/soya.png"
+},
+{
+  "id": 30,
+  "name": "tamaamdigag",
+  "description": "",
+  "price": 0,
+  "image": "/images/tamaamdigag.png"
+},
+{
+  "id": 31,
+  "name": "xawa",
+  "description": "",
+  "price": 0,
+  "image": "/images/xawa.png"
+},
+{
+  "id": 32,
+  "name": "Baked Beans",
+  "description": "",
+  "price": 0,
+  "image": "/images/baked.png"
+},
+{
+  "id": 33,
+  "name": "Bela",
+  "description": "",
+  "price": 0,
+  "image": "/images/bela.png"
+},
+{
+  "id": 34,
+  "name": "ekcin",
+  "description": "",
+  "price": 0,
+  "image": "/images/ekcin.png"
+},
+{
+  "id": 36,
+  "name": "jumbo",
+  "description": "",
+  "price": 0,
+  "image": "/images/jumbo.png"
 }
+
  
   ];
 
