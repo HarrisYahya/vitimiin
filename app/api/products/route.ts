@@ -135,6 +135,22 @@ export async function GET() {
   "price": 1,
   "image": "/images/canbo.png"
 },
+
+{
+  "id": 37,
+  "name": "Kabsar",
+  "description": "1kii xirmo",
+  "price": 0.5,
+  "image": "/images/kabsar.png"
+},
+
+{
+  "id": 38,
+  "name": "Yaanyo Miro",
+  "description": "1kii xirmo",
+  "price": 0.5,
+  "image": "/images/yanyomiro.png"
+},
 {
   "id": 35,
   "name": "liinmacaan",
@@ -255,13 +271,7 @@ export async function GET() {
   "image": "/images/jumbo.png"
 },
 
-{
-  "id": 37,
-  "name": "Kabsar",
-  "description": "1kii xirmo",
-  "price": 0.5,
-  "image": "/images/kabsar.png"
-}
+
 
  
   ];
