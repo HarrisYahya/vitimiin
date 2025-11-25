@@ -123,7 +123,7 @@ export async function GET() {
 },
 {
   "id": 18,
-  "name": "Batiiq",
+  "name": "Bataati",
   "description": "1 kii xabo",
   "price": 1,
   "image": "/images/batiiq.png"
