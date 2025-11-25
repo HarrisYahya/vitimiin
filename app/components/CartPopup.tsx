@@ -8,7 +8,6 @@ interface CartPopupProps {
 export default function CartPopup({ onClose }: CartPopupProps) {
   const {
     cart,
-    removeFromCart,
     clearCart,
     increaseQuantity,
     decreaseQuantity,
@@ -34,17 +33,32 @@ export default function CartPopup({ onClose }: CartPopupProps) {
     const iosLink = `whatsapp://send?phone=252617733690&text=${encoded}`;
     const webLink = `https://wa.me/252617733690?text=${encoded}`;
 
-    // iPhone fix (Safari blocks window.open)
     if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
       window.location.href = iosLink;
-
-      // fallback if WhatsApp app is not installed
       setTimeout(() => {
         window.location.href = webLink;
       }, 700);
     } else {
       window.open(webLink, "_blank");
     }
+  };
+
+  // ⭐ Payment button (decimal handled, omit *00)
+  const handlePayment = () => {
+    const parts = total.split(".");
+    const integerPart = parts[0];
+    const decimalPart = parts[1] || "00";
+
+    const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+    const hash = isIOS ? "%23" : "#";
+
+    // Include decimal only if not "00"
+    const paymentLink =
+      decimalPart === "00"
+        ? `tel:*712*617733690*${integerPart}${hash}`
+        : `tel:*712*617733690*${integerPart}*${decimalPart}${hash}`;
+
+    window.location.href = paymentLink;
   };
 
   return (
@@ -102,11 +116,20 @@ export default function CartPopup({ onClose }: CartPopupProps) {
               <span className="font-bold">${total}</span>
             </div>
 
+            {/* WhatsApp button */}
             <button
               onClick={handleBuy}
               className="w-full bg-green-600 text-white py-2 rounded-xl hover:bg-green-700"
             >
-              Proceed to Buy
+              Proceed to Buy (WhatsApp)
+            </button>
+
+            {/* Payment button (Mobile Money USSD, decimal handled) */}
+            <button
+              onClick={handlePayment}
+              className="w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 mt-2"
+            >
+              Pay Now (Mobile Money)
             </button>
 
             <button

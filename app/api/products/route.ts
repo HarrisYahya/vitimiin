@@ -96,7 +96,7 @@ export async function GET() {
 {
   "id": 14,
   "name": "Koosto",
-  "description": "11 xabo",
+  "description": "1 maas",
   "price": 1.5,
   "image": "/images/koosto.png"
 },
@@ -253,6 +253,14 @@ export async function GET() {
   "description": "1 kiixabo",
   "price": 1.75,
   "image": "/images/jumbo.png"
+},
+
+{
+  "id": 36,
+  "name": "Kabsar",
+  "description": "1kii xirmo",
+  "price": 0.5,
+  "image": "/images/kabsar.png"
 }
 
  
