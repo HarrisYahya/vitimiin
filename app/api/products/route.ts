@@ -74,7 +74,7 @@ export async function GET() {
 },
 {
   "id": 11,
-  "name": "Bocor Xabo",
+  "name": "Bocor",
   "description": "",
   "price": 1.5,
   "image": "/images/bocor.png"
@@ -102,10 +102,10 @@ export async function GET() {
 },
 {
   "id": 15,
-  "name": "Bataati",
+  "name": "Batiiq",
   "description": "1 kiilo",
   "price": 0.75,
-  "image": "/images/batati.png"
+  "image": "/images/batiiqo.png"
 },
 {
   "id": 16,
