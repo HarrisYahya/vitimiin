@@ -147,8 +147,8 @@ export async function GET() {
 {
   "id": 38,
   "name": "Yaanyo Miro",
-  "description": "1kii xirmo",
-  "price": 0.5,
+  "description": "",
+  "price": 2,
   "image": "/images/yanyomiro.png"
 },
 {
