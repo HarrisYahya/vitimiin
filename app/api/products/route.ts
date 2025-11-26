@@ -286,6 +286,13 @@ export async function GET() {
   "price": 1.75,
   "image": "/images/jumbo.png"
 },
+    {
+  "id": 36,
+  "name": "jumbo xilwa",
+  "description": "",
+  "price": 1.5,
+  "image": "/images/jumboxilwa.png"
+},
 
 
 
