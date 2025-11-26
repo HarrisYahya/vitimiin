@@ -158,6 +158,22 @@ export async function GET() {
   "price": 1,
   "image": "/images/liinmacaan.png"
 },
+
+{
+  "id": 39,
+  "name": "Moos",
+  "description": "Gacankii",
+  "price": 1,
+  "image": "/images/moos.png"
+},
+
+{
+  "id": 40,
+  "name": "qajaar",
+  "description": "1 kiilo",
+  "price": 0.75,
+  "image": "/images/qajaar.png"
+},
 {
   "id": 20,
   "name": "maceeye",
