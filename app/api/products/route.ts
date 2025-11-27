@@ -174,6 +174,13 @@ export async function GET() {
   "price": 0.75,
   "image": "/images/qajaar.png"
 },
+    {
+  "id": 41,
+  "name": "Tuun",
+  "description": "Rubac",
+  "price": 1,
+  "image": "/images/tuun.png"
+},
 {
   "id": 20,
   "name": "maceeye",
